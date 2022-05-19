@@ -1,0 +1,1480 @@
+.wrapper {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    min-height: -webkit-calc(100% - 110px);
+    min-height: -o-calc(100% - 110px);
+    min-height: -moz-calc(100% - 110px);
+    min-height: calc(100% - 110px);
+}
+.content_full_img {
+	width: 100%;
+    position: relative;
+    height: 100%;
+    height: 1024px;
+}
+.the_slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #F8F8F8;
+    background-image: url('../images/home/intro/intro-mobile.jpg');
+    background-image: url('../images/home/intro/intro-mobile.webp');
+}
+.the_slide.galeria {
+    background-image: url('../images/galeria/intro/galeria-casa-bonita-mobile.jpg');
+    background-image: url('../images/galeria/intro/galeria-casa-bonita-mobile.webp');
+}
+.the_slide.contacto {
+    background-image: url('../images/contacto/intro/contacto-casa-bonita-mobil.jpg');
+    background-image: url('../images/contacto/intro/contacto-casa-bonita-mobil.webp');
+}
+.the_slide.habitaciones {
+    background-image: url('../images/habitaciones/intro/habitaciones-casa-bonita-mobile.jpg');
+    background-image: url('../images/habitaciones/intro/habitaciones-casa-bonita-mobile.webp');
+}
+.the_slide.prensa {
+    background-image: url('../images/prensa/intro/prensa-casa-bonita-mobile.jpg');
+    background-image: url('../images/prensa/intro/prensa-casa-bonita-mobile.webp');
+}
+.the_slide.servicios {
+    background-image: url('../images/servicios/intro/servicios-casa-bonita-mobile.jpg');
+    background-image: url('../images/servicios/intro/servicios-casa-bonita-mobile.webp');
+}
+.pleca_content {
+    width: 295px;
+    height: 290px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.pleca_square {
+    background-color: #fff;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+}
+.pleca_half_circle {
+    background-color: #fff;
+    width: 100%;
+    height: 90%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    margin: auto;
+    position: relative;
+    top: -42px;
+}
+section.live_description {
+    position: relative;
+    top: 0;
+    padding: 60px 0;
+}
+.description_elements {
+    padding: 40px 40px;
+    position: relative;
+}
+.the_title {
+    /*font-size: 2.5em;*/
+    /*padding: 0px 40px;*/
+    /*text-align: start;*/
+    /*color: #4c3b66;*/
+}
+.the_title h2{
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: normal;
+    color: #4c3b66;
+}
+.the_text {
+    /*padding: 0px 40px;*/
+    color: #666666;
+}
+.img_certificate {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.image_partner {
+    display: flex;
+    position: absolute;
+    height: 80%;
+    align-items: center;
+    right: 275px;
+    padding: 0px 0px;
+}
+.img_partner {
+    width: 280px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.the_images {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+}
+.img_certificate {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.slider_image {
+    padding-bottom: 12.2%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 300ms;
+}
+.see_room {
+    color: #fff;
+    font-family: 'Roboto';
+    text-align: center;
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    letter-spacing: 1px;
+}
+.see_room a{
+    font-size: 14px;
+}
+.slider_title {
+    background-color: rgba(76, 59, 102, 0.9);
+    position: absolute;
+    color: #fff;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+    bottom: 100px;
+    font-size: 40px;
+}
+.slider_subtitle {
+    background-color: rgba(76, 59, 102, 0.6);
+    position: absolute;
+    color: #fff;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+    bottom: 120px;
+}
+section.discover {
+    position: relative;
+    top: 0;
+    /* padding: 60px 0; */
+    padding-top: 60px;
+}
+.info_description.discover {
+    padding: 40px 80px;
+    position: relative;
+    width: 60%;
+    display: inline-block;
+    padding: 40px 40px;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+.info_description.discover h2{
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: normal;
+    color: #4c3b66;
+}
+.info_description.discover h3{
+    color: #999999;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+.info_description.discover p{
+    color: #666666;
+    width: 70%;
+}
+.subtitle {
+    color: #999999;
+    padding: 0 40px;
+}
+.button_discover {
+    color: #fff;
+    background-color: #4c3b66;
+    display: flex;
+    position: relative;
+    right: -80px;
+    top: 50%;
+    width: 260px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+section.wedding {
+    position: relative;
+    top: 0;
+    padding: 60px 0;
+}
+.slider_image.wedding {
+    padding-bottom: 0;
+    height: 570px;
+    background-image: url('../images/home/wedding/servicios-mobile.jpg');
+    background-image: url('../images/home/wedding/servicios-mobile.webp');
+}
+.the_title.wedding{
+    text-align: center;
+    width: 100%;
+}
+.wedding_description {
+    position: relative;
+    top: 0;
+    text-align: -webkit-center;
+    text-align: center;
+    /*background-color: rgba(255, 255, 255, 0.92);*/
+    height: 570px;
+    top: 60px;
+    vertical-align: middle;
+    align-items: center;
+}
+.subtitle.wedding{
+    padding-top: 15%;
+}
+
+.the_title.wedding h2{
+}
+.subtitle.wedding span{
+    color: #4c3b66;
+}
+.button_wedding {
+    background-color: #4c3b66;
+    display: inline-block;
+    padding: 10px;
+    width: 30%;
+    color: #fff;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider_fade_wedding {
+    position: relative;
+    /*top: -571px;*/
+}
+.cover{
+    height: 571px;
+    position: relative;
+}
+.cover_out {
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 630px;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+section.logos {
+    position: relative;
+    top: 0;
+    text-align: center;
+    padding-bottom: 60px;
+}
+section.wedding{
+    height: 570px;
+}
+.logo_image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 85px;
+    display: inline-block;
+    width: 250px;
+}
+footer {
+    background-color: #4c3b66;
+    color: #fff;
+    /*font-family: 'Roboto';*/
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-weight: lighter;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.colum {
+    display: inline-block;
+}
+.colum_one {
+    position: relative;
+    padding-left: 40px;
+}
+.colum_two {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    padding-right: 40px;
+}
+.logo_footer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 120px;
+    height: 115px;
+}
+.contact {
+    font-weight: bold;
+}
+.term_conditions p{
+    font-family: 'EB Garamond',sans-serif;
+}
+.pleca_img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.content{
+    width: 1170px;
+    margin: auto;
+}
+section.section_description {
+    position: relative;
+    top: 0;
+    padding: 60px 0;
+    /* padding-bottom: 0px; */
+}
+section.section_description h2{
+    color: #4c3b66;
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+}
+section.section_description h3{
+    color: #999999;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+section.section_description p{
+    color: #6a6a6a;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5em;
+    font-size: 1.17em;
+}
+.text_description.servicios{
+    width: 300px;
+}
+section.info_services{
+    position: relative;
+    top: 0;
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 200px;
+}
+.row {
+    width: 100%;
+    height: 410px;
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+}
+.service.image{
+    width: calc(50% - 50px);
+    height: 100%;
+    float: left;
+}
+.service.image .img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.service.text{
+    /*background-color: bisque;*/
+    width: calc(50% - 50px);
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    right: 0;
+}
+.row.inverse .service.text{
+    left: 0;
+    text-align: right;
+}
+.row.inverse {
+    flex-direction: row-reverse;
+}
+.service.text h2{
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    font-weight: normal;    
+    color: #4c3b66;
+}
+.service.text p{
+    width: 75%;
+    position: relative;
+    color: #6a6a6a;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5em;
+    font-size: 1.17em;
+}
+
+.row.inverse .service.text p{
+    align-self: flex-end;
+    /*text-align: left;*/
+}
+.service.text a {
+    color: #fff;
+    background-color: #4c3b66;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    /* padding: 0px 40px; */
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+.service.text a:first-of-type {
+    margin-top: 30px;
+}
+.clear{
+    clear: both;
+}
+.slick-initialized .slick-slide {
+    position: unset;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    top: 0;
+    position: relative;
+    top: -130px;
+}
+    
+        li {
+            margin: 0 0.25rem;
+        }
+    
+        button {
+            display: block;
+            width: 1rem;
+            height: 1rem;
+            padding: 0;
+            border: none;
+            border-radius: 100%;
+            background-color: #999999;
+            text-indent: -9999px;
+            cursor: pointer;
+        }
+    
+        li.slick-active button {
+            background-color: #4c3b66;
+        }
+section.presentation {
+   position: relative;
+} 
+
+.arrow{
+    /*background-color: yellowgreen;*/
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.arrow.prev {
+    left: 20px;
+}
+.arrow.next.slick-arrow {
+    right: 20px;
+}
+
+.content.prensa{
+    text-align: -webkit-center;
+    text-align: center;
+}
+.content_post {
+    text-align: -webkit-center;
+    text-align: center;
+    display: inline-block;
+    width: -o-calc(100%/3 - 30px);
+    width: -ms-calc(100%/3 - 30px);
+    width: -ms-calc(100%/3 - 30px);
+    width: -webkit-calc(100%/3 - 30px);
+    width: calc(100%/3 - 30px );
+    margin: 10px;
+    vertical-align: top;
+}
+.info_post {
+    width: 70%;
+    margin: auto;
+}
+.post_img .img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+}
+.info_post h3{
+    color: #999999;
+    margin: 0;
+    font-weight: normal;
+    font-size: 1em;
+    margin-top: 1em;
+}
+.info_post h2 {
+    color: #999999;
+    margin: auto;
+    font-weight: normal;
+    font-size: 1em;
+}
+.info_post p{
+    color: #666666;
+}
+.info_post a{
+    color: #4c3b66;
+    text-decoration: underline;
+    font-size: 1.17em;
+}
+.text_description.prensa {
+    position: relative;
+    left: 60px;
+    width: -o-calc(100%/3 - 30px );
+    width: -ms-calc(100%/3 - 30px );
+    width: -ms-calc(100%/3 - 30px );
+    width: -webkit-calc(100%/3 - 30px );
+    width: calc(100%/3 - 30px );
+    margin: 10px;
+}
+
+.text_description.contact{
+    width: 300px;
+    position: relative;
+}
+.section_description.contact{
+    padding-bottom: 15px;
+}
+.content_form_contact {
+    position: relative;
+    width: 500px;
+    float: left;
+}
+.content_phone {
+ /*   background-color: yellow;*/
+    position: relative;
+    float: left;
+    left: 90px;
+}
+.content_phone h2{
+    color: #4c3b66;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 2em;
+    font-weight: normal;
+}
+.content_phone a{
+    display: block;
+    color: #999999;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.content_phone a:hover{
+    color: #4c3b66;
+}
+.content_social_media {
+    padding-top: 30px;
+}
+section.info_services.contact {
+    padding-bottom: 80px;
+}
+section.the_map {
+    position: relative;
+    top: 0;
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 200px;
+}
+.content_map {
+    width: auto;
+    /*height: 310px;*/
+    position: relative;
+}
+.content.custom_map{
+    width: 100%;
+}
+.over_map {
+    background-color: rgba(128, 128, 128, 0.17);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none;
+}
+.location {
+    text-align: -webkit-center;
+    text-align: center;
+    color: #999999;
+    font-weight: 400;
+}
+.text_description.prensa.habitaciones{
+    left: 0;
+}
+.room_content{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 130px;
+}
+.room_button a{
+    display: block;
+    transition: 300ms;
+}
+.room_button a:first-child{
+    background-color: #4c3b66;
+    height: 70px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.room_button.rooms a:last-child{
+    height: 55px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.17em;
+    background-color: #6e5e7b;
+    margin: auto;
+}
+.room_button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.room_button.rooms {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.info_services.rooms{
+    padding-bottom: 0px;
+}
+.info_services.rooms.individual{
+    padding-bottom: 0px;
+    height: 350px;
+}
+
+section.info_services.rooms{
+    padding-bottom: 0;
+}
+.arrow{
+    /*background-color: yellowgreen;*/
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.arrow.prev {
+    left: 20px;
+}
+.arrow.next {
+    right: 20px;
+}
+.slider_gallery {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.gallery_img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slick-slider {
+    height: 100%;
+}
+.slick-track {
+    height: 100%;
+}
+.slick-list {
+    height: 100%;
+}
+.pleca_content.individual {
+    width: 185px;
+    height: 180px;
+    cursor: pointer;
+    position: absolute;
+    bottom: unset;
+    right: unset;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.pleca_content.individual .pleca_half_circle{
+    background-color: #fff;
+    width: 100%;
+    height: 90%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    margin: auto;
+    position: relative;
+    top: 42px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.pleca_content.individual .pleca_square{
+    background-color: #fff;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: unset;
+    top: 0;
+}
+.pleca_content.individual .pleca_img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.text_description.individual a{
+    position: relative;
+    background-color: #4c3b66;
+    height: 50px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.17em;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+section.features{
+    padding-top: 55px;
+    padding-bottom: 200px;
+}
+.feature_description {
+    position: relative;
+    display: inline-block;
+    margin: 0px 15px;
+    margin-bottom: 80px;
+    width: -o-calc(100%/3 - 35px );
+    width: -ms-calc(100%/3 - 35px );
+    width: -ms-calc(100%/3 - 35px );
+    width: -webkit-calc(100%/3 - 35px );
+    width: calc(100%/3 - 35px);
+    vertical-align: top;
+}
+.feature_description h2 {
+    color: #4c3b66;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-left: 40px;
+    padding-inline-start: 40px;
+}
+.feature_description ul {
+    color: #666666;
+    font-size: 1.17em;
+    font-weight: 400;
+    list-style-type: none;
+    padding-left: 40px;
+}
+.feature_description ul li {
+    text-indent: 10px;
+}
+.feature_description ul li:before {
+    content: "-";
+    text-indent: -10px;
+    position: absolute;
+}
+
+.individual_content {
+    -webkit-transition: 1500ms;
+    -moz-transition: 1500ms;
+    -o-transition: 1500ms;
+    transition: 1500ms;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 20;
+    top: -1000px;
+    left: 0;
+}
+.individual_content.active{
+    top: 0;
+}
+.individual_info {
+    width: 100%;
+    height: 100%;
+    background-color: darkslategrey;
+    overflow-y: scroll;
+    display: none;
+}
+.individual_info.active {
+    display: block;
+}
+.close_view {
+    width: -o-calc(100% - 17px);
+    width: -ms-calc(100% - 17px);
+    width: -ms-calc(100% - 17px);
+    width: -webkit-calc(100% - 17px);
+    width: calc(100% - 17px);
+    width: 100%;
+    position: absolute;
+    height: 90px;
+    background-color: #6e5e7b;
+    bottom: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 20;
+}
+.close_view p{
+    color: #fff;
+}
+body.active_individual{
+    overflow: hidden;
+}
+.forma{
+    width: 100%;
+    height: 500px;
+}
+.map {
+    height: 450px;
+    width: 100%;
+}
+.wrapper.message_received{
+    padding-top: 100px;
+}
+.text_description.habitaciones {
+    width: 370px;
+    text-align: -webkit-center;
+    text-align: center;
+    margin: auto;
+}
+@media only screen and (max-width: 1270px){
+    .row{
+        height: 510px;
+    }
+    .service.text{
+        width: -o-calc(50% - 20px);
+        width: -ms-calc(50% - 20px);
+        width: -ms-calc(50% - 20px);
+        width: -webkit-calc(50% - 20px);
+        width: calc(50% - 20px);
+    }
+    .service.image{
+        width: -o-calc(50% - 20px);
+        width: -ms-calc(50% - 20px);
+        width: -ms-calc(50% - 20px);
+        width: -webkit-calc(50% - 20px);
+        width: calc(50% - 20px);
+    }
+    .content {
+        margin: auto;
+        width: -o-calc(100% - 30px);
+        width: -ms-calc(100% - 30px);
+        width: -ms-calc(100% - 30px);
+        width: -webkit-calc(100% - 30px);
+        width: calc(100% - 30px);
+    }
+}
+@media only screen and (max-width: 1000px){
+    .content {
+        margin: auto;
+        width: -o-calc(100% - 100px);
+        width: -ms-calc(100% - 100px);
+        width: -ms-calc(100% - 100px);
+        width: -webkit-calc(100% - 100px);
+        width: calc(100% - 100px);
+    }
+    .content.rooms {
+        margin: auto;
+        width: 100%;
+    }
+    .text_description.servicios {
+        margin: auto;
+        text-align: center;
+    }
+    .row {
+        height: auto;
+        flex-direction: column;
+        width: -o-calc(100% - 100px);
+        width: -ms-calc(100% - 100px);
+        width: -ms-calc(100% - 100px);
+        width: -webkit-calc(100% - 100px);
+        width: calc(100% - 100px);
+        margin: auto;
+        margin-bottom: 70px;
+    }
+    .service.image{
+        float: unset;
+        width: 100%;
+    }
+    .service.image .img {
+        height: 0;
+        padding-bottom: 62.2%;
+    }
+    .service.text {
+        float: unset;
+        position: relative;
+        margin-top: 70px;
+        width: 100%;
+    }
+    .row.inverse {
+        flex-direction: column;
+    }
+    .content_description{
+        width: -o-calc(100% - 100px);
+        width: -ms-calc(100% - 100px);
+        width: -ms-calc(100% - 100px);
+        width: -webkit-calc(100% - 100px);
+        width: calc(100% - 100px);
+        margin: auto;
+    }
+    .content.prensa{
+        text-align: unset;
+    }
+    .content_post{
+        width: -o-calc(100%/2 - 30px);
+        width: -ms-calc(100%/2 - 30px);
+        width: -ms-calc(100%/2 - 30px);
+        width: -webkit-calc(100%/2 - 30px);
+        width: calc(100%/2 - 30px );
+        margin-bottom: 50px;
+    }
+    .text_description.prensa {
+        left: unset;
+        margin: auto;
+        text-align: -webkit-center;
+        text-align: center;
+    }
+    .info_post {
+        width: 90%;
+    }
+    .text_description.contact{
+        left: unset;
+        text-align: -webkit-center;
+        text-align: center;
+    }
+    .text_description.contact{
+        margin: auto;
+    }
+    .content_form_contact{
+        left: unset;
+        float: none;
+        margin: auto;
+    }
+    .content_phone {
+        float: unset;
+        left: unset;
+        margin: auto;
+        text-align: -webkit-center;
+        text-align: center;
+    }
+    .social_media ul a{
+        display: inline-block;
+    }
+    .feature_description {
+        width: -o-calc(100%/2 - 35px );
+        width: -ms-calc(100%/2 - 35px );
+        width: -ms-calc(100%/2 - 35px );
+        width: -webkit-calc(100%/2 - 35px );
+        width: calc(100%/2 - 35px);
+    }
+    .text_description.individual {
+        margin: auto;
+        width: -o-calc(100% - 100px);
+        width: -ms-calc(100% - 100px);
+        width: -ms-calc(100% - 100px);
+        width: -webkit-calc(100% - 100px);
+        width: calc(100% - 100px);
+        padding-left: 40px;
+    }
+    .the_description {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        top: 0;
+        float: left;
+        padding-bottom: 40px;
+    }
+    .the_title{
+        width: 90%;
+    }
+    .the_text {
+        width: 70%;
+        margin: auto;
+    }
+    .the_text {
+        width: 100%;
+    }
+    .the_text.wedding {
+        width: 70%;
+    }
+    .the_images {
+        width: auto;
+        position: relative;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        right: -o-calc(50% - 330px);
+        right: -ms-calc(50% - 330px);
+        right: -ms-calc(50% - 330px);
+        right: -webkit-calc(50% - 330px);
+        right: calc(50% - 330px);
+    }
+    .image_partner {
+        display: inline-block;
+        position: relative;
+        height: auto;
+        align-items: unset;
+        left: -o-calc(50% - 290px);
+        left: -ms-calc(50% - 290px);
+        left: -ms-calc(50% - 290px);
+        left: -webkit-calc(50% - 290px);
+        left: calc(50% - 290px);
+        padding: 0px 0px;
+        top: 45px;
+    }
+}
+@media only screen and (max-width: 750px){
+
+    .the_images {
+        width: auto;
+        position: relative;
+        display: block;
+        float: unset;
+        text-align: center;
+        right: -o-calc(50% - 150px);
+        right: -ms-calc(50% - 150px);
+        right: -ms-calc(50% - 150px);
+        right: -webkit-calc(50% - 150px);
+        right: calc(50% - 150px);
+        right: unset;
+    }
+    .image_partner {
+        height: auto;
+        align-items: unset;
+        left: unset;
+        padding: 0;
+        top: 25px;
+        width: auto;
+        position: relative;
+        display: block;
+        float: unset;
+        text-align: center;
+        right: unset;
+    }
+    .the_title {
+        width: 100%;
+    }
+    .the_text {
+        width: 100%;
+    }
+    .the_text.wedding {
+        width: 70%;
+    }
+    .img_partner {
+        display: inline-block;
+        width: 240px;
+    }   
+    .slider_title {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .slider_image {
+        padding-bottom: 24.2%;
+    }
+    .slider_image.wedding{
+        /*padding-bottom: 34.2%;*/
+    }
+    .content_post {
+        width: -o-calc(100% - 0px );
+        width: -ms-calc(100% - 0px );
+        width: -ms-calc(100% - 0px );
+        width: -webkit-calc(100% - 0px );
+        width: calc(100% - 0px );
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .text_description.prensa {
+        width: -o-calc(90% - 30px);
+        width: -ms-calc(90% - 30px);
+        width: -ms-calc(90% - 30px);
+        width: -webkit-calc(90% - 30px);
+        width: calc(90% - 30px );
+        width: 80%;
+    }
+    .text_description.prensa.habitaciones{
+        text-align: start;
+    }
+    .content_full_img {
+        height: 680px;
+    }
+    .room_button.rooms{
+        left: 150px;
+    }
+    .room_button {
+        left: 150px;
+    }
+    .room_button.rooms a:last-child{
+        margin: unset;
+    }
+    .feature_description {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 45px;
+    }
+    .feature_description h2 {
+        padding-left: 0;
+        padding-inline-start: 0;
+    }
+    .feature_description ul {
+        padding-left: 0;
+    }
+
+    .text_description.individual{
+        padding: 0px 30px;
+    }
+    .text_description.individual {
+        padding-left: 0px;
+    }
+    .info_description.discover {
+        padding: 40px 40px;
+        position: relative;
+        width: 80%;
+        display: inline-block;
+    }
+    .button_discover{
+        right: -40px;
+    }
+}
+@media only screen and (max-width: 650px){
+    footer {
+        font-size: 15px;
+    }
+    .colum_one {
+        display: block;
+        position: unset;
+        text-align: center;
+        padding: 0;
+    }
+    .colum_two {
+        text-align: center;
+        display: block;
+        position: unset;
+        padding: 0;
+        padding-top: 30px;
+    }
+    .logo_footer{
+        margin: auto;
+    }
+    .jotform-form {
+        width: 100%!important;
+    }
+    .content_form_contact{
+        width: 100%;
+    }
+    .form-submit-button{
+        padding: 20px 20px 20px 20px!important;
+    }
+    .form-line.jf-required {
+        width: 100%!important;
+    }
+}
+@media only screen and (max-width: 600px){
+    .text_description.servicios {
+        width: auto;
+        white-space: normal;
+        margin: auto;
+    }
+    .content {
+        margin: auto;
+        width: -o-calc(100% - 60px);
+        width: -ms-calc(100% - 60px);
+        width: -ms-calc(100% - 60px);
+        width: -webkit-calc(100% - 60px);
+        width: calc(100% - 60px);
+    }
+    section.info_services{
+        width: 100%;
+        overflow: hidden;
+    }
+    .row{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+    .service.image{
+        width: 525px;
+        margin: auto;
+    }
+    .service.text{
+        width: -o-calc(100% - 60px);
+        width: -ms-calc(100% - 60px);
+        width: -ms-calc(100% - 60px);
+        width: -webkit-calc(100% - 60px);
+        width: calc(100% - 60px);
+        margin: auto;
+        margin-top: 70px;
+        text-align: center;
+    }
+    .row.inverse .service.text {
+        left: unset;
+        text-align: center;
+    }
+    .service.text p{
+        width: 100%;
+    }
+    .row.inverse .service.text p {
+        align-self: flex-end;
+        text-align: center;
+    }
+
+    .service.text a {
+        align-self: center;
+    }
+    .text_description.contact{
+        width: 220px;
+    }
+}
+@media only screen and (max-width: 500px){
+
+    .img_certificate {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 85px;
+        height: 85px;
+        display: inline-block;
+    }
+    .slider_image {
+        padding-bottom: 32.2%;
+    }
+    .wedding_description{
+        height: 680px;
+    }
+    .slider_image.wedding{
+        height: 680px;
+    }
+    .subtitle.wedding {
+        padding-top: 20%;
+    }
+    .button_wedding {
+        /*top: 30px;*/
+    }
+    .logo_image {
+        padding-bottom: 40px;
+    }
+    .button_discover {
+        right: 30px; 
+    }
+    .pleca_content{
+        width: 200px;
+        height: 190px;
+    }
+    .menu_content{
+        width: 75px;
+        height: 80px;
+    }
+    .menu_square{
+        width: 100%;
+        height: 50%;
+    }
+    .menu_half_cirlcle {
+        width: 100%;
+        height: 90%;
+        top: -33px;
+    }
+    .menu_content_lines {
+        width: 70%;
+        height: 50%;
+        top: 10px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider_fade_wedding {
+        position: relative;
+        /*top: -700px;*/
+    }
+    section.wedding{
+        height: 700px;
+    }
+    .cover{
+        height: 700px;
+    }
+    .section_logos{
+        padding-top: 70px;
+    }
+    .jotform-form {
+       /* width: 90%!important;*/
+    }
+    .description_elements {
+        padding: 40px 10px;
+    }
+    .info_description.discover{
+        padding: 40px 10px;
+    }
+    .info_description.discover p{
+        width: 100%;
+    }
+    .info_description.discover h2{
+        width: 90%;
+    }
+    .text_description.habitaciones {
+        width: 70%;
+        text-align: -webkit-center;
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 470px){
+
+    .jotform-form {
+       /* width: 80%!important;*/
+    }
+}
+@media only screen and (max-width: 400px){
+
+    .slider_fade_wedding {
+        position: relative;
+        /*top: -682px;*/
+    }
+    .cover{
+        /*height: 700px;*/
+        /*height: 100%;*/
+    }
+    .cover_out{
+        top: 59px;
+    }
+    section.wedding{
+        height: 570px;
+    }
+    section.logos{
+        padding-top: 70px;
+    } 
+    .jotform-form {
+        /*width: 70%!important;*/
+    }
+    .button_wedding{
+        width: 50%;
+    }
+    .slick-dots{
+        top: -70px;
+    }
+    .button_wedding{
+        bottom: 80px;
+    }
+    .the_text{
+        width: 100%;
+    }
+    .the_text.wedding{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 370px){
+
+    .jotform-form {
+        /*width: 60%!important;*/
+    }
+}
